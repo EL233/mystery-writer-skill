@@ -101,6 +101,7 @@ foreshadowing_level: advanced
 - 叙述性诡计
 
 **犯罪结构：**
+``` text
 犯罪动机
 ↓
 犯罪机会
@@ -110,6 +111,7 @@ foreshadowing_level: advanced
 误导设计
 ↓
 真相揭示
+```
 ---
 
 ## 🚀 Quick Start
@@ -139,7 +141,7 @@ mystery-writer-skill/
 进入悬疑小说创作模式。
 请根据当前配置生成故事架构。
 ### 3. 创建故事
-
+```text
 示例：
 使用暴风雪山庄模式。
 要求：
@@ -150,6 +152,7 @@ mystery-writer-skill/
 最终解释必须闭环
 
 先生成案件设计。
+```
 ---
 
 ## 📈 Writing Pipeline
