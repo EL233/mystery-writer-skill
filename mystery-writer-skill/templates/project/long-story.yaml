@@ -1,0 +1,13 @@
+# 长篇小说项目元数据
+book_title: "暂定书名"
+author: "作者名"
+genre: ["本格推理", "社会派", "心理悬疑"] # 可选
+total_volumes_planned: 3 # 计划卷数
+target_word_count: 300000 # 预期字数
+active_volume: 1 # 当前活跃卷
+status: "ideating" # 状态: ideating | outlining | writing | reviewing
+
+# 核心设定锚点（供 AI 全局置信）
+core_premise: "一句话核心创意/钩子"
+ultimate_truth: "全书最终要揭晓的终极真相（主线谜底）"
+background_setting: "故事发生的时间、空间、核心规则或社会背景"
