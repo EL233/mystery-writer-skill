@@ -114,9 +114,11 @@ foreshadowing_level: advanced
 
 ## 🚀 Quick Start
 
-### 1. 加载 Skill
+## 加载 Skill
 
 将项目文件导入你的 AI 平台：
+
+```text
 mystery-writer-skill/
 ├── SKILL.md
 ├── CONFIG.md
@@ -124,10 +126,11 @@ mystery-writer-skill/
 ├── templates/
 │   ├── character.md
 │   ├── clue_matrix.md
-│   ├── chapter_outline.md
+│   └── chapter_outline.md
 ├── plugins/
 │   └── timeline_verifier.md
 └── examples/
+```
 ### 2. 初始化
 
 发送：
@@ -150,7 +153,7 @@ mystery-writer-skill/
 ---
 
 ## 📈 Writing Pipeline
-
+```text
 整个创作流程：
 Idea
 │
@@ -171,25 +174,7 @@ Generation 正文生成
 │
 ▼
 Verification 逻辑审计
-
----
-
-## 📂 Project Structure
-mystery-writer-skill/
-├── README.md
-├── SKILL.md
-├── CONFIG.md
-├── templates/
-│   ├── character.md
-│   ├── case.md
-│   ├── clue_matrix.md
-│   ├── chapter_outline.md
-├── plugins/
-│   ├── timeline_verifier.md
-│   └── logic_checker.md
-└── examples/
-├── short-demo/
-└── long-demo/
+```
 ---
 
 ## ⚙️ Configuration
@@ -254,10 +239,13 @@ unreliable_narrator: true
 ## 🛠️ Custom Extensions
 
 可以新增：
+```text
 plugins/
 ├── dream_logic.md
 ├── fair_play_checker.md
 └── character_arc.md
+```
+
 用于扩展 AI 行为。
 
 例如 `fair_play_checker` 用于检测：
